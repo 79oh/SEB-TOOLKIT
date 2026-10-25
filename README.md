@@ -69,7 +69,7 @@ Six tabs: Overview, Static, Detection, Exports, Call (with parameter inputs), Tr
 - .seb config without browserExamKeySalt/appSignatureKeySalt values will never trigger these exports during tracing
 - Static analysis is inherently limited — Themida decrypts code and resolves imports at runtime
 
-One non ai generated part though, even with correct BSTR signatures and LoadLibrary, both key derivation functions return deterministic looking output, but it's wrong. The values change per LoadLibrary call, aren't real SHA-384/256, and the DLL clearly detects it's not running under SafeExamBrowser.Client.exe. Themida's antiscraping is baked into the export stubs themselves. Um star this repo and join my discord: .79oh
+One non ai generated part though, even with correct BSTR signatures and LoadLibrary, both key derivation functions return deterministic looking output, but it's wrong. The values change per LoadLibrary call, aren't real SHA-384/256, and the DLL clearly detects it's not running under SafeExamBrowser.Client.exe. Themida's antiscraping is baked into the export stubs themselves. Um star this repo and add  my discord: .79oh
 ## License
 
 MIT
